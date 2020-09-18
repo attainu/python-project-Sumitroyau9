@@ -1,0 +1,53 @@
+## ParkingLot
+Design a parking lot using Python with TDD approach
+
+## Dependencies
+
+You just need Python. Visit the link https://www.python.org/downloads/ to install Python. 
+
+## Description
+
+This repository gives an overview of how we can design a basic parking lot in Python. It creates parking lot with given number of slots. 
+
+ParkingLot.py script passes the following testcases -  
+It gives a choice for input either manual or file input.  
+create_parking_lot 6  
+park KA-01-HH-1234 White  
+park KA-01-HH-9999 White  
+park KA-01-BB-0001 Black  
+park KA-01-HH-7777 Red  
+park KA-01-HH-2701 Blue  
+park KA-01-HH-3141 Black  
+leave 4  
+status  
+park KA-01-P-333 White  
+park DL-12-AA-9999 White  
+registration_numbers_for_cars_with_colour White  
+slot_numbers_for_cars_with_colour White  
+slot_number_for_registration_number KA-01-HH-3141  
+slot_number_for_registration_number MH-04-AY-1111
+
+The above testcases defines the following term-
+
+1. `create_parking_lot n` - Given n number of slots, create a parking lot
+2. `park car_regno car_color` - Parks a vehicle with given registration number and color in the nearest empty slot possible. If there are no more empty slots available, it shows a message "Sorry, parking lot is full".
+3. `status` - Prints the slot number, registration number and color of the parked vehicles.
+4. `leave x` - Removes vehicle from slot number x
+5. There are few query functions to retrieve slot number from registration number of car, get registration numbers of cars with particular color etc.
+
+To create your own ParkingLot - 
+
+1. Clone the repository
+
+2. Run `python ParkingLot.py` The below image shows the terminal window where I have given input on my path to python script.Thus it is showing two choices either Manual Input or File Input.
+
+  ![p1](Screenshots/1.jpg)
+  
+3. This is how the menu driven program appears shown below when Manual Input is chosen. First of all, no. of  total slots has to be created so from the testcase I have taken 6 slots as input. After that program is asking either to park or the remaining task according to the choice no. can be implemented.
+  
+  ![p2](Screenshots/2.jpg)
+
+4. In this image shows the file input option, where path for the testcase.txt is given. Then automatically code fetches the input and gives the output.
+
+![park3](Screenshots/3.jpg)
+
