@@ -1,5 +1,9 @@
-## ParkingLot
-Design a parking lot using Python with TDD approach
+# ParkingLot
+## Introduction:-  
+Off-street parking is an important part of the transportation system. As it is
+very difficult to manage and maintain the huge parking lot so there were this
+project comes in the scenario. This project can keep the record based on the
+Registration number(Number Plate no.) and the Color of the car.
 
 ## Dependencies
 
