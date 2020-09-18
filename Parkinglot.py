@@ -16,7 +16,7 @@ class ParkingLot:
 	def createParkingLot(self,capacity):
 		self.slots = [-1] * capacity
 		self.capacity = capacity
-		return self.capacity
+		return print('\nCreated a parking lot with '+str(self.capacity)+' slots')
 
 	def getEmptySlot(self):
 		for i in range(len(self.slots)):
