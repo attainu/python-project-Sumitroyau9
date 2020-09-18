@@ -41,13 +41,13 @@ To create your own ParkingLot -
 
 2. Run `python ParkingLot.py` The below image shows the terminal window where I have given input on my path to python script.Thus it is showing two choices either Manual Input or File Input.
 
-  ![p1](Screenshots/1.jpg)
+  ![1](Screenshots/1.jpg)
   
 3. This is how the menu driven program appears shown below when Manual Input is chosen. First of all, no. of  total slots has to be created so from the testcase I have taken 6 slots as input. After that program is asking either to park or the remaining task according to the choice no. can be implemented.
   
-  ![p2](Screenshots/2.jpg)
+  ![2](Screenshots/2.jpg)
 
 4. In this image shows the file input option, where path for the testcase.txt is given. Then automatically code fetches the input and gives the output.
 
-![park3](Screenshots/3.jpg)
+![3](Screenshots/3.jpg)
 
